@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\bin\Debug\playkidsEntidades.dll
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\bin\Debug\playkidsEntidades.pdb
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.dll
+C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.pdb
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\playkidsEntidades.dll
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\playkidsEntidades.pdb
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.AssemblyReference.cache
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.dll
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.pdb

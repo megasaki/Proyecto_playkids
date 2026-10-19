@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\PlayKids\bin\Debug\PlayKids.exe.config
+C:\Users\Admin\source\repos\PlayKids\bin\Debug\PlayKids.exe
+C:\Users\Admin\source\repos\PlayKids\bin\Debug\PlayKids.pdb
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Properties.Resources.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.exe
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.pdb
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Menu.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Cargando.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.logind.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Trofeos.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.juego_de_ingles.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.agregarUsuario.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Englis__check.resources
+C:\Users\Admin\source\repos\PlayKids\obj\Debug\PlayKids.Clases.Resultados.resources

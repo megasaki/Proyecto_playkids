@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="playkidsDatos/playkidsDatos.csproj" Id="4990dc92-024f-4235-a51c-66ce57511c23" />
+  <Project Path="playkidsEntidades/playkidsEntidades.csproj" Id="969426e4-97fa-4e35-9431-2f9890fe5217" />
+  <Project Path="playkidsNegocio/playkidsNegocio.csproj" Id="de0bd685-9e02-4499-96cd-06823fe17e69" />
+  <Project Path="playkidsPresentacion/playkidsPresentacion.csproj" Id="58b9e0a6-5fc3-446c-ace0-9adc5c4de22c" />
+</Solution>
