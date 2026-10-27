@@ -14,5 +14,7 @@ namespace playkidsEntidades
         public string Sexo { get; set; }
         public string Correo { get; set; }
         public string Contrasena { get; set; }
+        public int IdRol { get; set; }
+        public string NombreRol { get; set; }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Cryptography;
+using System.Text;
 using playkidsEntidades;
 using playkidsDatos;
 
@@ -8,10 +10,24 @@ namespace playkidsNegocio
     {
         private UsuarioDatos usuarioDatos = new UsuarioDatos();
 
+        // Método privado para cifrar contraseñas mediante SHA-256
+        private string EncriptarSHA256(string texto)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = Encoding.UTF8.GetBytes(texto);
+                byte[] hashBytes = sha256.ComputeHash(bytes);
+                StringBuilder sb = new StringBuilder();
+                foreach (byte b in hashBytes)
+                {
+                    sb.Append(b.ToString("x2"));
+                }
+                return sb.ToString();
+            }
+        }
+
         public int RegistrarUsuario(Usuario usuario)
         {
-        
-
             if (string.IsNullOrWhiteSpace(usuario.Nombre) ||
                 string.IsNullOrWhiteSpace(usuario.Correo) ||
                 string.IsNullOrWhiteSpace(usuario.Contrasena))
@@ -29,7 +45,9 @@ namespace playkidsNegocio
                 throw new ArgumentException("Debe seleccionar el sexo del jugador.");
             }
 
-           
+            // Ciframos la contraseña antes de enviarla a la capa de datos
+            usuario.Contrasena = EncriptarSHA256(usuario.Contrasena);
+
             return usuarioDatos.InsertarUsuario(usuario);
         }
 
@@ -40,7 +58,10 @@ namespace playkidsNegocio
                 throw new ArgumentException("Debe ingresar su correo y contraseña para entrar.");
             }
 
-            return usuarioDatos.IniciarSesion(correo, contrasena);
+            // Ciframos la contraseña ingresada para que coincida con el hash almacenado en la BD
+            string contrasenaCifrada = EncriptarSHA256(contrasena);
+
+            return usuarioDatos.IniciarSesion(correo, contrasenaCifrada);
         }
     }
 }

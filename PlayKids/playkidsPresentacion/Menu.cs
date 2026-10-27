@@ -23,7 +23,23 @@ namespace playkidsPresentacion
         {
             if (UsuarioActual != null)
             {
-                this.Text = "PlayKids - Menú Principal | Jugador: " + UsuarioActual.Nombre;
+                this.Text = "PlayKids - Menú Principal | " + UsuarioActual.Nombre + " (" + UsuarioActual.NombreRol + ")";
+
+                
+                aplicarPermisosPorRol();
+            }
+        }
+
+        private void aplicarPermisosPorRol()
+        {
+           
+            if (UsuarioActual.NombreRol == "Estudiante")
+            {
+               
+            }
+            else if (UsuarioActual.NombreRol == "Administrador" || UsuarioActual.NombreRol == "Docente")
+            {
+                
             }
         }
 

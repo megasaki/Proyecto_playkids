@@ -26,7 +26,9 @@ namespace playkidsDatos
 
                     conexion.Open();
 
-                    return (int)comando.ExecuteScalar();
+                  
+                    object resultado = comando.ExecuteScalar();
+                    return Convert.ToInt32(resultado);
                 }
             }
         }
@@ -35,6 +37,7 @@ namespace playkidsDatos
         {
             using (SqlConnection conexion = db.ObtenerConexion())
             {
+               
                 using (SqlCommand comando = new SqlCommand("sp_IniciarSesion", conexion))
                 {
                     comando.CommandType = CommandType.StoredProcedure;
@@ -54,6 +57,11 @@ namespace playkidsDatos
                             usuario.Sexo = lector["Sexo"].ToString();
                             usuario.Correo = lector["Correo"].ToString();
                             usuario.Contrasena = lector["Contrasena"].ToString();
+
+                            
+                            usuario.IdRol = Convert.ToInt32(lector["IdRol"]);
+                            usuario.NombreRol = lector["NombreRol"].ToString();
+
                             return usuario;
                         }
                     }
