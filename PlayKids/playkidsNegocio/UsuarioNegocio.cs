@@ -10,7 +10,7 @@ namespace playkidsNegocio
     {
         private UsuarioDatos usuarioDatos = new UsuarioDatos();
 
-        // Método privado para cifrar contraseñas mediante SHA-256
+     
         private string EncriptarSHA256(string texto)
         {
             using (SHA256 sha256 = SHA256.Create())
@@ -45,7 +45,7 @@ namespace playkidsNegocio
                 throw new ArgumentException("Debe seleccionar el sexo del jugador.");
             }
 
-            // Ciframos la contraseña antes de enviarla a la capa de datos
+           
             usuario.Contrasena = EncriptarSHA256(usuario.Contrasena);
 
             return usuarioDatos.InsertarUsuario(usuario);
