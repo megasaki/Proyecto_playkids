@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminReportes.Designer.cs">
+      <DependentUpon>AdminReportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Englis__check.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,18 @@
     <Compile Include="ReporteBitacora.Designer.cs">
       <DependentUpon>ReporteBitacora.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporteEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteEstudiantes.Designer.cs">
+      <DependentUpon>ReporteEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteProgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteProgreso.Designer.cs">
+      <DependentUpon>ReporteProgreso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Resultados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +142,9 @@
       <DependentUpon>Resultados.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="AdminReportes.resx">
+      <DependentUpon>AdminReportes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Englis__check.resx">
       <DependentUpon>Englis__check.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +171,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteBitacora.resx">
       <DependentUpon>ReporteBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteEstudiantes.resx">
+      <DependentUpon>ReporteEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteProgreso.resx">
+      <DependentUpon>ReporteProgreso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\rptBitacora.rdlc" />
     <EmbeddedResource Include="Reportes\rptEstudiantes.rdlc" />

@@ -31,17 +31,25 @@ namespace playkidsPresentacion
                 if (usuario != null)
                 {
                     MessageBox.Show(
-                        "Bienvenido " + usuario.Nombre,
+                        "¡Bienvenido " + usuario.Nombre + "!",
                         "PlayKids",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information
                     );
 
-
-                    Menu menuPrincipal = new Menu(usuario);
-                    menuPrincipal.Show(); 
-                    this.Hide();         
-
+                    
+                    if (usuario.IdRol == 1) 
+                    {
+                        AdminReportes frmAdmin = new AdminReportes();
+                        frmAdmin.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        Menu menuPrincipal = new Menu(usuario);
+                        menuPrincipal.Show();
+                        this.Hide();
+                    }
                 }
                 else
                 {

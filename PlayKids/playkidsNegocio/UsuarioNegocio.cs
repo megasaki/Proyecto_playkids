@@ -58,7 +58,7 @@ namespace playkidsNegocio
                 throw new ArgumentException("Debe ingresar su correo y contraseña para entrar.");
             }
 
-            // Ciframos la contraseña ingresada para que coincida con el hash almacenado en la BD
+         
             string contrasenaCifrada = EncriptarSHA256(contrasena);
 
             return usuarioDatos.IniciarSesion(correo, contrasenaCifrada);

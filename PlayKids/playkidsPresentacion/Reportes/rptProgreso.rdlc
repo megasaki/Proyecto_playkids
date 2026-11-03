@@ -355,7 +355,7 @@
         </TablixRowHierarchy>
         <DataSetName>reporte</DataSetName>
         <Top>0.31472in</Top>
-        <Left>0.45361in</Left>
+        <Left>0.13194in</Left>
         <Height>0.5in</Height>
         <Width>5in</Width>
         <Style>
@@ -365,10 +365,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>1.20139in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>5.38194in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

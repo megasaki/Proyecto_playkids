@@ -59,7 +59,7 @@
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(952, 684);
+            this.reportViewer1.Size = new System.Drawing.Size(978, 684);
             this.reportViewer1.TabIndex = 0;
             this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 684);
+            this.ClientSize = new System.Drawing.Size(978, 684);
             this.Controls.Add(this.reportViewer1);
             this.Name = "ReporteBitacora";
             this.Text = "ReporteBitacora";
