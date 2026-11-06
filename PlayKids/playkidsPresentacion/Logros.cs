@@ -46,6 +46,7 @@ namespace playkidsPresentacion
             {
                 using (HttpClient client = new HttpClient())
                 {
+                    // 1. Obtener los logros del usuario
                     string urlApi = $"http://localhost:5083/api/LogrosPython/{this.idUsuario}";
                     HttpResponseMessage response = await client.GetAsync(urlApi);
 
@@ -67,8 +68,8 @@ namespace playkidsPresentacion
                         if (dataGridViewLogros.Columns["completado"] != null)
                             dataGridViewLogros.Columns["completado"].HeaderText = "¡Completado!";
 
-                        // Descargar el gráfico generado directamente desde la API por HTTP
-                        string urlImagen = "http://localhost:5083/arbol_logros.png";
+                        // 2. CORREGIDO: Descargar el gráfico dinámico apuntando al nuevo endpoint por ID de usuario
+                        string urlImagen = $"http://localhost:5083/api/LogrosPython/imagen/{this.idUsuario}";
                         byte[] bytesImagen = await client.GetByteArrayAsync(urlImagen);
 
                         if (bytesImagen != null && bytesImagen.Length > 0)
@@ -99,10 +100,6 @@ namespace playkidsPresentacion
         }
     }
 
-
-
-
-
     public class LogroDTO
     {
         public int id_logro { get; set; }
@@ -110,9 +107,4 @@ namespace playkidsPresentacion
         public string descripcion { get; set; }
         public bool completado { get; set; }
     }
-
-    
-
-
 }
-

@@ -101,7 +101,7 @@ if __name__ == "__main__":
     arbol = ArbolLogrosBST()
     logros_data = []
 
-    # Capturar JSON de logros
+    # 1. Capturar JSON de logros
     if len(sys.argv) > 1:
         try:
             raw_arg = sys.argv[1].replace('\\"', '"')
@@ -109,8 +109,12 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error procesando JSON en Python: {e}", file=sys.stderr)
 
-    # Capturar ID de usuario para aislar el archivo de imagen por usuario
+    # 2. Capturar ID de usuario
     id_usuario = sys.argv[2] if len(sys.argv) > 2 else "default"
+
+    # 3. Capturar la ruta absoluta exacta enviada por la API
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    ruta_absoluta = sys.argv[3] if len(sys.argv) > 3 else os.path.join(script_dir, f"arbol_logros_{id_usuario}.png")
 
     if not logros_data:
         logros_data = [
@@ -124,11 +128,8 @@ if __name__ == "__main__":
         ]
 
     arbol.construir_desde_lista(logros_data)
-
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    nombre_archivo_imagen = f"arbol_logros_{id_usuario}.png"
-    ruta_absoluta = os.path.join(script_dir, nombre_archivo_imagen)
     
+    # Generar la imagen en la ruta absoluta exacta que la API requiere
     arbol.generar_grafo_visual(ruta_absoluta)
 
     print(json.dumps(arbol.obtener_inorden(), ensure_ascii=False))
