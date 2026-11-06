@@ -17,7 +17,6 @@ namespace playkidsAPI.Controllers
         public LogrosPythonController(IConfiguration configuration)
         {
             _configuration = configuration;
-            // Configuración alineada correctamente con appsettings.json
             _connectionString = _configuration.GetConnectionString("ConexionPlayKids")
                 ?? "Server=.\\PLAYKIDS;Database=PlayKidsCapasDB;Trusted_Connection=True;TrustServerCertificate=True;";
         }
@@ -67,11 +66,13 @@ namespace playkidsAPI.Controllers
                     return StatusCode(404, new { mensaje = $"No se encontró el script en: {scriptPath}" });
                 }
 
-                // Pasamos el JSON como primer argumento y el idUsuario como segundo argumento para aislar el PNG
+                string imageName = $"arbol_logros_{idUsuario}.png";
+                string imagePath = Path.Combine(AppContext.BaseDirectory, imageName);
+
                 var startInfo = new ProcessStartInfo
                 {
                     FileName = "python",
-                    Arguments = $"\"{scriptPath}\" \"{jsonEscapado}\" \"{idUsuario}\"",
+                    Arguments = $"\"{scriptPath}\" \"{jsonEscapado}\" \"{idUsuario}\" \"{imagePath}\"",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
                     UseShellExecute = false,
@@ -102,8 +103,8 @@ namespace playkidsAPI.Controllers
             }
         }
 
-        // Endpoint dedicado y seguro por usuario para devolver su propia imagen PNG generada por Python
-        [HttpGet("/arbol_logros/{idUsuario}.png")]
+        // CORREGIDO: Ruta relativa limpia que hace match perfecto con HttpClient de WinForms
+        [HttpGet("imagen/{idUsuario}")]
         public IActionResult ObtenerImagenArbol(int idUsuario)
         {
             string imageName = $"arbol_logros_{idUsuario}.png";
