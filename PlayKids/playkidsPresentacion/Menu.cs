@@ -64,8 +64,8 @@ namespace playkidsPresentacion
 
         private void btnTrofeos_Click_1(object sender, EventArgs e)
         {
-            ReporteBitacora frm = new ReporteBitacora();
-            frm.ShowDialog();
+            Logros formLogros = new Logros(this);
+            formLogros.Show();
         }
 
         private void butSalir_Click_1(object sender, EventArgs e)

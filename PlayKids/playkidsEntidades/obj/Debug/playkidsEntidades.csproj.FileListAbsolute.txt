@@ -4,9 +4,17 @@ C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidad
 C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.dll
 C:\Users\Admin\source\repos\playkids\playkidsEntidades\obj\Debug\playkidsEntidades.pdb
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\playkidsEntidades.dll.config
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\playkidsEntidades.dll
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\playkidsEntidades.pdb
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.AssemblyReference.cache
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkids.6896B919.Up2Date
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.dll
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsEntidades\obj\Debug\playkidsEntidades.pdb

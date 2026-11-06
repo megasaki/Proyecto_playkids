@@ -175,5 +175,10 @@ namespace playkidsPresentacion
         private void lblPuntaje_Click(object sender, EventArgs e) { }
         private void lblPalabraEspañol_Click(object sender, EventArgs e) { }
         private void lblResultado_Click(object sender, EventArgs e) { }
+
+        private void juego_de_ingles_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,6 @@
+@playkidsAPI_HostAddress = http://localhost:5083
+
+GET {{playkidsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

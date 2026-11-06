@@ -136,6 +136,7 @@
             this.Controls.Add(this.btnSiguiente);
             this.Name = "juego_de_ingles";
             this.Text = "juego_de_ingles";
+            this.Load += new System.EventHandler(this.juego_de_ingles_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

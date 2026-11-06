@@ -15,6 +15,7 @@ C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\bin\Debug\playkidsDato
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\bin\Debug\playkidsEntidades.dll
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\bin\Debug\playkidsDatos.pdb
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\bin\Debug\playkidsEntidades.pdb
+C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\bin\Debug\playkidsEntidades.dll.config
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\obj\Debug\playkidsNegocio.csproj.AssemblyReference.cache
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\obj\Debug\playkidsNegocio.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Proyecto_playkids\PlayKids\playkidsNegocio\obj\Debug\playkids.A156210E.Up2Date

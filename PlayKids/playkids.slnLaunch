@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "playkidsAPI\\playkidsAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "playkidsPresentacion\\playkidsPresentacion.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
