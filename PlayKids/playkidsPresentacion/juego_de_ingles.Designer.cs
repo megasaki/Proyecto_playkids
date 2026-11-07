@@ -40,9 +40,10 @@
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(179, 445);
+            this.btnSiguiente.Location = new System.Drawing.Point(159, 356);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(106, 36);
+            this.btnSiguiente.Size = new System.Drawing.Size(94, 29);
             this.btnSiguiente.TabIndex = 0;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -50,9 +51,10 @@
             // 
             // btnOpcion1
             // 
-            this.btnOpcion1.Location = new System.Drawing.Point(98, 245);
+            this.btnOpcion1.Location = new System.Drawing.Point(87, 196);
+            this.btnOpcion1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpcion1.Name = "btnOpcion1";
-            this.btnOpcion1.Size = new System.Drawing.Size(89, 34);
+            this.btnOpcion1.Size = new System.Drawing.Size(79, 27);
             this.btnOpcion1.TabIndex = 1;
             this.btnOpcion1.Text = "button2";
             this.btnOpcion1.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // 
             // btnOpcion2
             // 
-            this.btnOpcion2.Location = new System.Drawing.Point(238, 245);
+            this.btnOpcion2.Location = new System.Drawing.Point(212, 196);
+            this.btnOpcion2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpcion2.Name = "btnOpcion2";
-            this.btnOpcion2.Size = new System.Drawing.Size(75, 34);
+            this.btnOpcion2.Size = new System.Drawing.Size(67, 27);
             this.btnOpcion2.TabIndex = 2;
             this.btnOpcion2.Text = "button3";
             this.btnOpcion2.UseVisualStyleBackColor = true;
@@ -70,9 +73,10 @@
             // 
             // btnOpcion3
             // 
-            this.btnOpcion3.Location = new System.Drawing.Point(367, 245);
+            this.btnOpcion3.Location = new System.Drawing.Point(326, 196);
+            this.btnOpcion3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpcion3.Name = "btnOpcion3";
-            this.btnOpcion3.Size = new System.Drawing.Size(83, 34);
+            this.btnOpcion3.Size = new System.Drawing.Size(74, 27);
             this.btnOpcion3.TabIndex = 3;
             this.btnOpcion3.Text = "button4";
             this.btnOpcion3.UseVisualStyleBackColor = true;
@@ -80,11 +84,12 @@
             // 
             // butregresar
             // 
-            this.butregresar.Location = new System.Drawing.Point(12, 12);
+            this.butregresar.Location = new System.Drawing.Point(11, 10);
+            this.butregresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butregresar.Name = "butregresar";
-            this.butregresar.Size = new System.Drawing.Size(94, 39);
+            this.butregresar.Size = new System.Drawing.Size(84, 31);
             this.butregresar.TabIndex = 4;
-            this.butregresar.Text = "button5";
+            this.butregresar.Text = "Regresar";
             this.butregresar.UseVisualStyleBackColor = true;
             this.butregresar.Click += new System.EventHandler(this.butregresar_Click);
             // 
@@ -92,9 +97,9 @@
             // 
             this.lblPalabraEspañol.AutoSize = true;
             this.lblPalabraEspañol.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lblPalabraEspañol.Location = new System.Drawing.Point(111, 143);
+            this.lblPalabraEspañol.Location = new System.Drawing.Point(99, 114);
             this.lblPalabraEspañol.Name = "lblPalabraEspañol";
-            this.lblPalabraEspañol.Size = new System.Drawing.Size(95, 36);
+            this.lblPalabraEspañol.Size = new System.Drawing.Size(81, 29);
             this.lblPalabraEspañol.TabIndex = 5;
             this.lblPalabraEspañol.Text = "label1";
             this.lblPalabraEspañol.Click += new System.EventHandler(this.lblPalabraEspañol_Click);
@@ -103,9 +108,9 @@
             // 
             this.lblPuntaje.AutoSize = true;
             this.lblPuntaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lblPuntaje.Location = new System.Drawing.Point(111, 329);
+            this.lblPuntaje.Location = new System.Drawing.Point(99, 263);
             this.lblPuntaje.Name = "lblPuntaje";
-            this.lblPuntaje.Size = new System.Drawing.Size(95, 36);
+            this.lblPuntaje.Size = new System.Drawing.Size(81, 29);
             this.lblPuntaje.TabIndex = 6;
             this.lblPuntaje.Text = "label2";
             this.lblPuntaje.Click += new System.EventHandler(this.lblPuntaje_Click);
@@ -114,18 +119,18 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblResultado.Location = new System.Drawing.Point(206, 514);
+            this.lblResultado.Location = new System.Drawing.Point(183, 411);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(79, 29);
+            this.lblResultado.Size = new System.Drawing.Size(64, 25);
             this.lblResultado.TabIndex = 7;
             this.lblResultado.Text = "label3";
             this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // juego_de_ingles
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 684);
+            this.ClientSize = new System.Drawing.Size(460, 547);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblPuntaje);
             this.Controls.Add(this.lblPalabraEspañol);
@@ -134,7 +139,9 @@
             this.Controls.Add(this.btnOpcion2);
             this.Controls.Add(this.btnOpcion1);
             this.Controls.Add(this.btnSiguiente);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "juego_de_ingles";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "juego_de_ingles";
             this.Load += new System.EventHandler(this.juego_de_ingles_Load);
             this.ResumeLayout(false);

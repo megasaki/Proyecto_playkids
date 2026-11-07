@@ -40,9 +40,10 @@ namespace playkidsPresentacion
             // btnCargarLogros
             // 
             this.btnCargarLogros.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnCargarLogros.Location = new System.Drawing.Point(65, 12);
+            this.btnCargarLogros.Location = new System.Drawing.Point(58, 10);
+            this.btnCargarLogros.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargarLogros.Name = "btnCargarLogros";
-            this.btnCargarLogros.Size = new System.Drawing.Size(334, 60);
+            this.btnCargarLogros.Size = new System.Drawing.Size(297, 48);
             this.btnCargarLogros.TabIndex = 0;
             this.btnCargarLogros.Text = "Cargar Árbol de Logros";
             this.btnCargarLogros.UseVisualStyleBackColor = true;
@@ -51,18 +52,20 @@ namespace playkidsPresentacion
             // dataGridViewLogros
             // 
             this.dataGridViewLogros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewLogros.Location = new System.Drawing.Point(12, 78);
+            this.dataGridViewLogros.Location = new System.Drawing.Point(11, 62);
+            this.dataGridViewLogros.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewLogros.Name = "dataGridViewLogros";
             this.dataGridViewLogros.RowHeadersWidth = 62;
             this.dataGridViewLogros.RowTemplate.Height = 28;
-            this.dataGridViewLogros.Size = new System.Drawing.Size(495, 594);
+            this.dataGridViewLogros.Size = new System.Drawing.Size(440, 475);
             this.dataGridViewLogros.TabIndex = 1;
             // 
             // pictureBoxArbol
             // 
-            this.pictureBoxArbol.Location = new System.Drawing.Point(523, 12);
+            this.pictureBoxArbol.Location = new System.Drawing.Point(465, 10);
+            this.pictureBoxArbol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxArbol.Name = "pictureBoxArbol";
-            this.pictureBoxArbol.Size = new System.Drawing.Size(684, 660);
+            this.pictureBoxArbol.Size = new System.Drawing.Size(608, 528);
             this.pictureBoxArbol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxArbol.TabIndex = 2;
             this.pictureBoxArbol.TabStop = false;
@@ -70,13 +73,15 @@ namespace playkidsPresentacion
             // 
             // Logros
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1219, 684);
+            this.ClientSize = new System.Drawing.Size(1084, 547);
             this.Controls.Add(this.pictureBoxArbol);
             this.Controls.Add(this.dataGridViewLogros);
             this.Controls.Add(this.btnCargarLogros);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Logros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logros";
             this.Load += new System.EventHandler(this.FrmLogros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogros)).EndInit();

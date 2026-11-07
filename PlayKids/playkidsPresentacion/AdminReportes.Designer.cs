@@ -42,9 +42,9 @@ namespace playkidsPresentacion
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(79, 9);
+            this.label1.Location = new System.Drawing.Point(70, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(803, 46);
+            this.label1.Size = new System.Drawing.Size(684, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Panel de Control y Reportes Administrativos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -52,9 +52,10 @@ namespace playkidsPresentacion
             // btnBitacora
             // 
             this.btnBitacora.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.btnBitacora.Location = new System.Drawing.Point(12, 70);
+            this.btnBitacora.Location = new System.Drawing.Point(11, 56);
+            this.btnBitacora.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBitacora.Name = "btnBitacora";
-            this.btnBitacora.Size = new System.Drawing.Size(288, 94);
+            this.btnBitacora.Size = new System.Drawing.Size(256, 75);
             this.btnBitacora.TabIndex = 1;
             this.btnBitacora.Text = "Ver Bitácora de Auditoría";
             this.btnBitacora.UseVisualStyleBackColor = true;
@@ -63,9 +64,10 @@ namespace playkidsPresentacion
             // btnEstudiantes
             // 
             this.btnEstudiantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.btnEstudiantes.Location = new System.Drawing.Point(352, 70);
+            this.btnEstudiantes.Location = new System.Drawing.Point(313, 56);
+            this.btnEstudiantes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEstudiantes.Name = "btnEstudiantes";
-            this.btnEstudiantes.Size = new System.Drawing.Size(260, 94);
+            this.btnEstudiantes.Size = new System.Drawing.Size(231, 75);
             this.btnEstudiantes.TabIndex = 2;
             this.btnEstudiantes.Text = "Reporte de Estudiantes";
             this.btnEstudiantes.UseVisualStyleBackColor = true;
@@ -74,9 +76,10 @@ namespace playkidsPresentacion
             // btnProgreso
             // 
             this.btnProgreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.btnProgreso.Location = new System.Drawing.Point(645, 70);
+            this.btnProgreso.Location = new System.Drawing.Point(573, 56);
+            this.btnProgreso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProgreso.Name = "btnProgreso";
-            this.btnProgreso.Size = new System.Drawing.Size(307, 94);
+            this.btnProgreso.Size = new System.Drawing.Size(273, 75);
             this.btnProgreso.TabIndex = 3;
             this.btnProgreso.Text = "Reporte de Progreso Académico";
             this.btnProgreso.UseVisualStyleBackColor = true;
@@ -85,9 +88,10 @@ namespace playkidsPresentacion
             // btnsalir
             // 
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnsalir.Location = new System.Drawing.Point(868, 445);
+            this.btnsalir.Location = new System.Drawing.Point(772, 356);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(98, 37);
+            this.btnsalir.Size = new System.Drawing.Size(87, 30);
             this.btnsalir.TabIndex = 4;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
@@ -95,15 +99,17 @@ namespace playkidsPresentacion
             // 
             // AdminReportes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 494);
+            this.ClientSize = new System.Drawing.Size(869, 395);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnProgreso);
             this.Controls.Add(this.btnEstudiantes);
             this.Controls.Add(this.btnBitacora);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminReportes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminReportes";
             this.ResumeLayout(false);
             this.PerformLayout();
