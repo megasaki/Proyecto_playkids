@@ -112,6 +112,11 @@ namespace playkidsPresentacion
             if (formanterio != null)
                 formanterio.Show(); 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 
     

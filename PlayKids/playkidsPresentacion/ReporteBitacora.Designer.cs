@@ -57,9 +57,10 @@
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "playkidsPresentacion.Reportes.rptBitacora.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(978, 684);
+            this.reportViewer1.Size = new System.Drawing.Size(869, 547);
             this.reportViewer1.TabIndex = 0;
             this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
@@ -70,11 +71,13 @@
             // 
             // ReporteBitacora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 684);
+            this.ClientSize = new System.Drawing.Size(869, 547);
             this.Controls.Add(this.reportViewer1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ReporteBitacora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReporteBitacora";
             this.Load += new System.EventHandler(this.ReporteBitacora_Load);
             ((System.ComponentModel.ISupportInitialize)(this.playKidsCapasDBDataSet4BindingSource)).EndInit();

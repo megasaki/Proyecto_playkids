@@ -55,18 +55,21 @@
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "playkidsPresentacion.Reportes.rptEstudiantes.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(734, 487);
+            this.reportViewer1.Size = new System.Drawing.Size(652, 390);
             this.reportViewer1.TabIndex = 0;
             // 
             // ReporteEstudiantes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 487);
+            this.ClientSize = new System.Drawing.Size(652, 390);
             this.Controls.Add(this.reportViewer1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ReporteEstudiantes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReporteEstudiantes";
             this.Load += new System.EventHandler(this.ReporteEstudiantes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.playKidsCapasDBDataSet1BindingSource)).EndInit();
